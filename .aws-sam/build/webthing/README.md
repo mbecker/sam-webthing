@@ -2,7 +2,7 @@
 
 
 ```bash
-$sam local invoke webthing --debug-port 5858 --env-vars env.json --event events/Alexa.Discovery.Discover.json
+$sam local invoke webthing --env-vars env.json --event events/Alexa.Discovery.Discover.json
 ```
 
 

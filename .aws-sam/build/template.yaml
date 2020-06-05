@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: sam-webthingalexa
+Transform:
+- AWS::Serverless-2016-10-31
+Resources:
+  webthing:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: src/handlers/index.alexaHandler
+      Runtime: nodejs12.x
+      MemorySize: 128
+      Timeout: 100
+      Description: A Lambda function that returns a static string.
+      Policies:
+      - AWSLambdaBasicExecutionRole
+      CodeUri: webthing
