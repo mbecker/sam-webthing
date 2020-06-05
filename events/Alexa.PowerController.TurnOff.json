@@ -1,0 +1,22 @@
+{
+    "directive": {
+      "header": {
+        "namespace": "Alexa.PowerController",
+        "name": "TurnOff",
+        "payloadVersion": "3",
+        "messageId": "c207f8ae-3b49-4669-bded-fa10866f2e4f",
+        "correlationToken": "AAAAAAAAAQDUJ9Lb70vu09eyVL/vXQAX/AEAAAAAAAAnF7oGEoe9c6WGQ4Fj59QHYTyIcxUABOsSZIY/HRZ5sES6bKCGlVqESCEjB/KFA+AFcdUrJJAf/IQuXUnGHwUUIMzhtI9QMD3ldogDkYELZ9S6y76zqyp+u2D89lpHbVc1pFo6LQMFIeq7cVGKrM0jRhS7xLmgzw31Kc3N01JDpG4NMqQ679bPP5pwb9TUElI6bZY0zzcPE6yyspn9cg032Y3QuwI5mbO8mL3Jl/likCpw5KPGZ3NJgLjdoIa/3RJiOvaruyty63sBBH2nOFtjsx8i2l/cZfCA2qWd7TLS4ZeMMkE+1MbqTUb+y8EFeJcy5OOCymY9+WlT38tZ0ww1xsbxDzFglpCG/ZklmqOOuLyVsK+6xkOTT97PlvAmMLTkmkHrrJAAZTY6lRDKTAI2zcKMUPeDLmdxqTbIK+MEm/QEPwMgxIT2CSkiehPDgqm+bXynO+Ym7DLKIDIxK6BUkLEY8fF2PyqFIPtLG7tbwA/Dsab82g6VRTNJ0+w9l8+TdOfnOJo/h6pVjMaff/YyWziVmku22VsSzUgX4N3fYyTod05Au7ZbRdxEXC+yM8yZZwiHncAv6hFqOEuaunoHbUfQPr1Lu6YDb45Bnu/xY8Hia463Qhw/UC1JZjEJroXYdThUm3nDgb1PXL3/6mdQRFWPBmWYj3E01axS"
+      },
+      "endpoint": {
+        "scope": {
+          "type": "BearerToken",
+          "token": "eyJraWQiOiJ0akE5LWt1TGFibjNKcHVfUDZFZ3RrTzN6dXh5b3J4R0RRY0pYNUVvbjhZIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlJDQmhJcmdNcEtzWno2bXBjYlJ4UUpSbkt0TkNNVUxwQVFFZVpBdm9DOGsiLCJpc3MiOiJodHRwczovL2Rldi02MTQ0NzUub2t0YS5jb20vb2F1dGgyL2F1c2Uxbm1mNlZEN0wxUURqNHg2IiwiYXVkIjoiaHR0cDovL2FsZXhhd2VidGhpbmcuY29tIiwiaWF0IjoxNTkxMjE0MzE4LCJleHAiOjE1OTEzMDA3MTgsImNpZCI6IjBvYWUxcDUxcjV1Q0F1TEZMNHg2IiwidWlkIjoiMDB1ZTFlZTZ5TVB5VW41dEc0eDYiLCJzY3AiOlsicHJvZmlsZSIsIm9wZW5pZCJdLCJzdWIiOiJtYXRzLmJlY2tlckBnbWFpbC5jb20iLCJGYXZvcml0ZUNvbG9yQ2xhaW0iOiJyZWQiLCJFbWFpbENsYWltIjoibWF0cy5iZWNrZXJAZ21haWwuY29tIn0.TeB-iM2E1qlBvvlh8BwusrzUhFuNl5pv0VufGEOmey9pbYUdBQ-OZRtOhyB1BPE1sINcKhmVzyrsjxWuIgZ8MSV9oH7JhJ0-6oX_zi9repn7gcaeBC2YbL5Q1bzfKetprhKvn9NbDz8z_368kcTdXRYO4ZFYBt4KoC8aY71nb2P8phzCm2YFppokeVpug1JnvyhyVLXB4FGDPoQzqwJxbrv3-bnY_aniipf1JdEcg4B0Kc5jmdALvSaBNOH-tG_fHAAENdC5ddroLFR7E2wcQhV7ujmbZJ_T4nm2Z_i3hRJLLxvI9ZGIOuBUj4DKDof-9UL7blLBEE86lKucDYJJig"
+        },
+        "endpointId": "11487F",
+        "cookie": {
+          "relay0": "Alexa.PowerController"
+        }
+      },
+      "payload": {}
+    }
+  }
