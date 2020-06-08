@@ -11,7 +11,7 @@
             "address": "localhost",
             "port": 5858,
             // From the sam init example, it would be "${workspaceRoot}/hello-world"
-            "localRoot": "${workspaceRoot}/src/handlers",
+            "localRoot": "${workspaceRoot}",
             "remoteRoot": "/var/task",
             "protocol": "inspector",
             "stopOnEntry": false,
