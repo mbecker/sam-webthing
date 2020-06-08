@@ -14,7 +14,7 @@
             "localRoot": "${workspaceRoot}/src/handlers",
             "remoteRoot": "/var/task",
             "protocol": "inspector",
-            "stopOnEntry": false
+            "stopOnEntry": false,
         }
     ]
 }
