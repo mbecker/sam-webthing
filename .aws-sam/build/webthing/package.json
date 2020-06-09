@@ -8,6 +8,11 @@
         "jest": "^24.7.1"
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "build": "sam build",
+        "invoke:discover": "sam local invoke --env-vars env.json --event events/Alexa.Discovery.Discover.json webthing",
+        "debug:discover": "sam local invoke --debug-port 5858 --env-vars env.json --event events/Alexa.Discovery.Discover.json webthing",
+        "invoke:reportstate:weather": "sam local invoke --env-vars env.json --event events/Alexa.ReportState.Endpoint.weather.json webthing",
+        "debug:reportstate:weather": "sam local invoke --debug-port 5858 --env-vars env.json --event events/Alexa.ReportState.Endpoint.weather.json webthing"
     }
 }

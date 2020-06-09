@@ -8,6 +8,8 @@ const alexaEndpoint = {
 
 exports.alexaHandler = function(request, context) {
     log("DEBUG", "Request", JSON.stringify(request));
+    log("PROCESS ENV", JSON.stringify(process.env))
+    log("PROCESS ENV TOKEN", process.env.TOKEN)
     if (request.directive.header.namespace === 'Alexa.Discovery' && request.directive.header.name === 'Discover') {
         log("DEBUG", "Discover request");
         handleDiscovery(request, context);
@@ -240,6 +242,10 @@ exports.alexaHandler = function(request, context) {
             res.on("end", function(chunk) {
                 var body = Buffer.concat(chunks);
                 try {
+                    if(body === 'undefined') {
+                        log("Body is undefined")
+                        throw new Error("Body is undefined");
+                    }
                     const value = JSON.parse(body.toString().replace('undefined', ''));
                     var responseHeader = request.directive.header;
                     responseHeader.namespace = "Alexa";
@@ -375,6 +381,7 @@ exports.alexaHandler = function(request, context) {
     }
 
     const getThingId = (id) => {
+        // The identifier for the endpoint. The identifier must be unique across all devices for the skill. The identifier must be consistent for all discovery requests for the same device. An identifier can contain letters or numbers, spaces, and the following special characters: _ - = # ; : ? @ &. The identifier can't exceed 256 characters.
         return id.replace(`${WEBTHING_SERVER}/things/`, '').substring(0, 255)
     }
 
@@ -456,8 +463,10 @@ exports.alexaHandler = function(request, context) {
                 "version": "3"
             };
 
+            log(propertyKey, "property['@type']", property['@type']);
+
             switch (property['@type']) {
-                case 'TemperaturePropertyTES':
+                case 'TemperatureProperty':
                     // Alexa.TemperatureSensor Interface
                     // https://developer.amazon.com/en-US/docs/alexa/device-apis/alexa-temperaturesensor.html
                     alexaCapability.interface = 'Alexa.TemperatureSensor';

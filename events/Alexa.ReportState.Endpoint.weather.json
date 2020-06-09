@@ -1,0 +1,22 @@
+{
+    "directive": {
+        "header": {
+            "namespace": "Alexa",
+            "name": "ReportState",
+            "payloadVersion": "3",
+            "messageId": "a9d10985-f68a-42bb-973c-421af8079092",
+            "correlationToken": "AAAAAAAAAQDUJ9Lb70vu09eyVL/vXQAX/AEAAAAAAAANwzKBhlfOmSZCazWWCJX2j/FUygQ67qMwZNCy1A1CUovqhSzvto0jQbcGNeFlScCjxdXscD8mVsf7pH2wEqAmrI9Ci8yCTvqZK0wzXoir+vaXQHhCtTqL8PZEBBNS8+GZx0n4pKGghvxwkwUiRAhKj5AMM4lsxyGYZfDl0SSnDlDqDfsOTnW7ZyEZ78Dz3m+Sc5S0AI9Wss59zte0yesd/QnQbkp+a74+hEoDgehUyAJ226FZ8QrQ2o7TZVjkX4RmrX6+PXdmpj0Ui37GPvyNtB3OHaal7JrXNZYwxujPQpptCcFW8OvusLJUS0gxh+zarCrsYnNGmJxaB/hhssfuEubwiBaMWgKNBXxA06tcm8yN9FgXscKPtMQ8ijpuajcOB9wVDHmT8WulTEMJDd6tOxJ/n+RBfQQ3yKC5n8r4CyyTs+Wb77p6QFP9kDhhJEYeNzu3JV7yoqxDIXqr+GxnW5ldF7a/y6r6muYx7Yxy2Ldx2FD7lJCjWnodTGRUW6Zzi+lGpCccPCyw0qNj2F9XO+/fMl2fbiwVwP5OXIjFixK10AQxxNeSNKuuVJKH0C0ZjtL999HXBdy2WxO7kp6hvF5FsR9JjmTec+m3FVDynwI0wNVWSn2dayqaRhYWpUCAs7IYQxBQJGgGUq4kKoWN2SGiazGEfQRKYLs9"
+        },
+        "endpoint": {
+            "scope": {
+                "type": "BearerToken",
+                "token": "eyJraWQiOiJ0akE5LWt1TGFibjNKcHVfUDZFZ3RrTzN6dXh5b3J4R0RRY0pYNUVvbjhZIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULlJDQmhJcmdNcEtzWno2bXBjYlJ4UUpSbkt0TkNNVUxwQVFFZVpBdm9DOGsiLCJpc3MiOiJodHRwczovL2Rldi02MTQ0NzUub2t0YS5jb20vb2F1dGgyL2F1c2Uxbm1mNlZEN0wxUURqNHg2IiwiYXVkIjoiaHR0cDovL2FsZXhhd2VidGhpbmcuY29tIiwiaWF0IjoxNTkxMjE0MzE4LCJleHAiOjE1OTEzMDA3MTgsImNpZCI6IjBvYWUxcDUxcjV1Q0F1TEZMNHg2IiwidWlkIjoiMDB1ZTFlZTZ5TVB5VW41dEc0eDYiLCJzY3AiOlsicHJvZmlsZSIsIm9wZW5pZCJdLCJzdWIiOiJtYXRzLmJlY2tlckBnbWFpbC5jb20iLCJGYXZvcml0ZUNvbG9yQ2xhaW0iOiJyZWQiLCJFbWFpbENsYWltIjoibWF0cy5iZWNrZXJAZ21haWwuY29tIn0.TeB-iM2E1qlBvvlh8BwusrzUhFuNl5pv0VufGEOmey9pbYUdBQ-OZRtOhyB1BPE1sINcKhmVzyrsjxWuIgZ8MSV9oH7JhJ0-6oX_zi9repn7gcaeBC2YbL5Q1bzfKetprhKvn9NbDz8z_368kcTdXRYO4ZFYBt4KoC8aY71nb2P8phzCm2YFppokeVpug1JnvyhyVLXB4FGDPoQzqwJxbrv3-bnY_aniipf1JdEcg4B0Kc5jmdALvSaBNOH-tG_fHAAENdC5ddroLFR7E2wcQhV7ujmbZJ_T4nm2Z_i3hRJLLxvI9ZGIOuBUj4DKDof-9UL7blLBEE86lKucDYJJig"
+            },
+            "endpointId": "weather-956cf7d7d1fb1107070e0b1000f5e13529847c5c",
+            "cookie": {
+                "temperature": "Alexa.TemperatureSensor"
+            }
+        },
+        "payload": {}
+    }
+}

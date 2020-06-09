@@ -12,6 +12,13 @@ Description: >-
 Transform:
 - AWS::Serverless-2016-10-31
 
+Globals:
+  Function:
+    Timeout: 30
+    Environment:
+      Variables:
+        TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c # Not Working (?); see: https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-specification-template-anatomy-globals.html
+
 # Resources declares the AWS resources that you want to include in the stack
 # https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html
 Resources:
@@ -25,8 +32,11 @@ Resources:
       Handler: src/handlers/index.alexaHandler
       Runtime: nodejs12.x
       MemorySize: 128
-      Timeout: 100
+      Timeout: 30 # Overide globals
       Description: A Lambda function that returns a static string.
       Policies:
         # Give Lambda basic execution Permission to the helloFromLambda
         - AWSLambdaBasicExecutionRole
+      Environment:
+        Variables:
+          TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
